@@ -1,0 +1,195 @@
+body{
+	margin: 0;
+	font-family: Roboto;
+}
+img{
+	max-width: 100% /*Не даём быть картинке больше родителя*/
+}
+header{
+	padding-top: 59px;
+	padding-bottom: 22px;
+	background-color: #3a7dfd;
+	color: #fff;
+	
+}
+.header-pretitle{
+	font-size: 18px;
+	margin-top: 102px;/*отступ между "вебразработчик и картинкой" */
+}
+.header-title{
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 36.81px;
+	margin-top: 21px;
+}
+.header-subtitel{
+	font-size: 18px;
+	margin-top: 20px;
+}
+.header-button{
+	/* Style for "Кнопка "СВЯЗАТСЯ */
+/*width: 200px;
+height: 50px;*/
+box-shadow: 10px 17px 34px 6px rgba(18, 61, 145, 0.83);
+border-radius: 50px;
+background-color: #ffffff;
+font-size: 18px;
+font-weight: 700;
+color: #072b6f;
+padding: 17px 55px;
+margin-top: 33px;
+
+}
+header small{
+	font-size: 12px;
+	display: block;
+	text-align: center;
+	margin-top: 9px;
+}
+.header-button-block{
+	max-width: 210px;
+}
+/*Секция портфолио*/
+.portfolio{
+	background-color: #dddddd;
+	padding-top: 44px;
+	padding-bottom: 71px;
+}
+.portfolio-block{
+	background-color: #fff;
+	padding-top: 29px;
+	padding-bottom: 44px;
+
+}
+.portfolio-title{
+	text-transform: uppercase;
+	color: #072b6f;
+	letter-spacing: 1.8px;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+.portfolio-subtitle{
+	color: #7bb9ff;
+	font-size: 14px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	
+}
+.portfolio-title, .portfolio-subtitle{
+	text-align: center;
+}
+.portfolio-col1{
+	margin-left: 50px;
+}
+.portfolio-col2{
+	margin-right:50px;
+} 
+.portfolio-block h3{
+	/* Style for "внутренний университет "газпром нефти"" */
+color: #072b6f;
+font-size: 18px;
+font-weight: 700;
+text-transform: uppercase;
+}
+.portfolio-text{
+	/* Style for "У «Газпром" */
+color: #8f8f8f;
+font-size: 14px;
+font-weight: 400;
+} 
+.portfolio-block a{
+	/* Style for "Смотреть работу" */
+color: #072b6f;
+font-size: 14px;
+font-weight: 400;
+text-decoration: underline;
+}
+/*Оформление подвала*/
+footer{
+
+	background-color: #3a7dfd;
+	color: #fff;
+	padding-top: 60px;
+	padding-bottom: 110px;
+
+}
+.footer-autor{
+	/* Style for "АВТОР" */
+
+color: #fefefe;
+font-size: 24px;
+margin-bottom: 7px;
+}
+
+.footer-text{
+	margin-top: 0;
+}
+.social-block{
+	text-align: center;
+}
+.social-block a{
+	display: inline-block;/* Обязательно посмотреть в справочнике*/
+	margin-left: 13px;
+	margin-right: 13px;
+}
+.foter-cta-block{
+	text-align: center;
+}
+.foter-cta{
+	margin-top: 13px;
+}
+.footer-button{
+	display: inline-block;
+	border-radius: 24px;
+	border: 1px solid #ffffff;
+	font-size: 18px;
+	background-color: transparent;/*Посмотреть в справочнике*/
+	color:#fff;
+	padding: 12px 40px;
+}
+/* Адаптация под маленикие экраны*/
+@media (max-width: 1200px) { /*просмотреть урок , и справочник, как ведет себя браузер на разных экранах*/
+	.header-pretitle{
+		margin-top: 60px;
+	}
+}
+@media (max-width: 992px) {
+	.header-img{
+		display: none;
+}
+.header-pretitle{
+		margin-top: 20px;
+}
+.footer-autor{
+	font-size: 18px;
+}
+.footer-text{
+	font-size: 14px;
+}
+.social-block a{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.social-block img{
+	width: 30px;
+}
+.footer-button{
+	font-size: 14px;
+    padding:8px 35px;
+}
+@media (max-width: 768px) {
+.portfolio-col1{   /*РАЗОБРАТСЯ от урока отличается*/
+	padding-left: 1px;
+	padding-right: 50px;
+	padding-bottom: 30px;
+}	
+.portfolio-col2{
+	padding-left: 50px;
+	padding-right: 1px;	
+ }
+}
+.footer-autor,.footer-text{
+	text-align: center;
+}
+    
+
